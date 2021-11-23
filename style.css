@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    display: flex;
+    margin: 0 0 0 3vw;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    position: relative;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+    margin: 0 5vw 0 0;
+}
+
+.blue-orange {    
+    position: relative;
+    width: 100%;
+    height: 780px;
+    background-image: url("assets/laranjaMain.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;       
+}
+
+.main-text h1 {
+    font-size: 68px;
+    margin-bottom: 5vh;
+}
+
+.main-text h2 {
+    font-weight: lighter;  
+}
+
+.main-text {
+    position: absolute;
+    bottom: 25vw;
+    right: 32vw;
+    color: #fff;   
+}
+
+li:hover {
+    
+    font-weight: bolder;    
+    cursor: pointer;
+}
