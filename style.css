@@ -47,8 +47,12 @@ header {
 .nav-top {
     display: flex;
     justify-content: space-evenly;
-    width: 30vw;
+    width: 35vw;
     margin: 0 5vw 0 0;
+}
+
+li {
+    width: 6vw;
 }
 
 .blue-orange { 
@@ -80,7 +84,7 @@ header {
 
 li:hover {    
     font-weight: bolder;  
-    font-size: 1.5em;
+    font-size: 1.1em;
     cursor: pointer;
 }
 
@@ -108,7 +112,7 @@ footer {
     align-items: center;
 }
 
-.socialMedia {
+.social-media {
     display: flex;
     align-items: center;
     width: 25vw;
@@ -116,7 +120,7 @@ footer {
     margin: 0 15vw 0 3.5vw;
 }
 
-.socialMedia img {
+.social-media img {
     height: 25px;
 }
 
@@ -222,13 +226,13 @@ footer {
         margin-top: 10px;
     }
 
-    .socialMedia {
+    .social-media {
         margin: 0;        
         width: 75%;
         background-color: #7FDBD4;
     }
 
-    .socialMedia img {
+    .social-media img {
        height: 34px;
        padding: 8px
     }
